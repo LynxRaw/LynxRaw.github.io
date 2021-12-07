@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Skaičiuotuvas</title>
+</head>
+<body style="background-color:red;">
+<input id="a"   type="number"  value="0" oninput="sudek();">    +    <input id="b"   type="number"  value="0" oninput="sudek();">    =    <h1 id="ats"></h1>
+<script>
+var a = document.getElementById("a");
+var b = document.getElementById("b");
+var ats = document.getElementById("ats");
+function sudek() {
+ats.innerHTML = parseInt(a.value) + parseInt(b.value);
+}
+</script>
+
+<h2>WAR</h2>
+
+<img src="black.jfif" style="display: block; position: absolute; right: 900px; top: 100px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 700px; top: 100px;" width="100" height="100">
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1000px; top: 300px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 600px; top: 300px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 900px; top: 400px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 800px; top: 400px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 700px; top: 400px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 800px; top: 400px;" width="100" height="100">
+
+
+
+
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1600px; top: 300px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1700px; top: 300px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1400px; top: 300px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1300px; top: 300px;" width="100" height="100">
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1500px; top: 400px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1800px; top: 400px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1200px; top: 400px;" width="100" height="100">
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1800px; top: 500px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1200px; top: 500px;" width="100" height="100">
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1700px; top: 600px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1300px; top: 600px;" width="100" height="100">
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1600px; top: 700px;" width="100" height="100">
+<img src="black.jfif" style="display: block; position: absolute; right: 1400px; top: 700px;" width="100" height="100">
+
+<img src="black.jfif" style="display: block; position: absolute; right: 1500px; top: 800px;" width="100" height="100">
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="1600" height="800" style="">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.strokeStyle = 'black';
+ctx.lineWidth = '4';
+ctx.beginPath();
+ctx.moveTo(294,450);
+ctx.lineTo(394,450);
+
+ctx.moveTo(294,550);
+ctx.lineTo(394,450);
+ctx.stroke();
+
+ctx.strokeStyle = 'lime';
+ctx.lineWidth = '4';
+
+ctx.beginPath();
+ctx.moveTo(700,700);
+ctx.lineTo(1400,700);
+
+ctx.moveTo(700,650);
+ctx.lineTo(1400,650);
+ctx.stroke();
+
+ctx.strokeStyle = 'yellow';
+ctx.lineWidth = '4';
+ctx.beginPath();
+ctx.arc(700,675,25,0,2*Math.PI);
+ctx.arc(800,675,25,0,2*Math.PI);
+ctx.arc(900,675,25,0,2*Math.PI);
+ctx.arc(1000,675,25,0,2*Math.PI);
+ctx.arc(1100,675,25,0,2*Math.PI);
+ctx.arc(1200,675,25,0,2*Math.PI);
+ctx.arc(1300,675,25,0,2*Math.PI);
+ctx.arc(1400,675,25,0,2*Math.PI);
+ctx.stroke();
+
+ctx.strokeStyle = 'orange';
+ctx.lineWidth = '4';
+ctx.beginPath();
+ctx.arc(700,675,25,0,2*Math.PI);
+ctx.arc(800,675,25,0,2*Math.PI);
+ctx.arc(900,675,25,0,2*Math.PI);
+ctx.arc(1000,675,25,0,2*Math.PI);
+ctx.arc(1100,675,25,0,2*Math.PI);
+ctx.arc(1200,675,25,0,2*Math.PI);
+ctx.arc(1300,675,25,0,2*Math.PI);
+ctx.arc(1400,675,25,0,2*Math.PI);
+ctx.stroke();
+</script>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+ 
+
+<canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;">
+Your browser does not support the HTML canvas tag.
+</canvas>
+<input type="number" oninput="greitis = this.value;">
+
+ 
+ KVDADRAČIUKAI
+ 
+
+<script>
+//Canvas ir javascript sąsaja
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ 
+
+//Kintamųjų deklaracija
+var i = 0;
+var kryptis = 1;
+var greitis = 4;
+var i_vertikaliai = 0;
+var kryptis_vertikaliai = 1;
+var greitis_vertikaliai = 24;
+var raudona = 0;
+var zalia = 0;
+var melyna = 0;
+
+ 
+
+
+//Kvadrato piešimo funkcijos deklaracija
+function piesklinija(x, y, x2, y2) {
+    ctx.clearRect(0, 0, 800, 800); //Šita eilutė išvalo visą drobę.
+    melyna = melyna + 3;
+    zalia = zalia + 2;
+    raudona = raudona + 1;
+    if (melyna > 255) melyna = 0;
+    if (zalia > 255) zalia = 0;
+    if (raudona > 255) raudona = 0;
+    ctx.strokeStyle = 'rgb('+raudona+','+zalia+','+melyna+')'; // Nudažys visas būsimas figūras mėlynai
+    ctx.fillRect(x, y, width, height); //Nupiešia kvadratą
+    i = i + kryptis*greitis;
+    if (i > 700) kryptis = -1; //pakeičia judėjimo kryptį, kai i daugiau nei 700
+    if (i < 100) kryptis = 1; //pakeičia judėjimo kryptį, kai i mažiau nei 100
+    i_vertikaliai = i_vertikaliai + kryptis_vertikaliai*greitis_vertikaliai;
+    if (i_vertikaliai > 700) kryptis_vertikaliai = -1; //pakeičia judėjimo kryptį, kai i daugiau nei 700
+    if (i_vertikaliai < 100) kryptis_vertikaliai = 1; //pakeičia judėjimo kryptį, kai i mažiau nei 100
+    setTimeout(piesk, 1, i, i_vertikaliai, 30, 30);
+}
+
+ 
+
+piesk(i, 50, 30, 30);
+</script>
+
+ 
+
+</body>
+</html>
+
+
+
+
+APSKRITIMAS:
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;">
+Your browser does not support the HTML canvas tag.
+</canvas>
+<input type="number" oninput="greitis = this.value;">
+
+<script>
+//Canvas ir javascript sąsaja
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+//Kintamųjų deklaracija
+
+function veikejas(e) {
+	var x = e.clientX;
+  	var y = e.clientY;
+	ctx.beginPath();
+	ctx.arc(x, y, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+}
+
+veikejas(100, 200);
+
+document.addEventListener("mousemove", veikejas);
+
+</script>
+
+</body>
+</html>
