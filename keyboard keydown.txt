@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" 
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;">
+Your browser does not support the HTML canvas tag.
+</canvas>
+<h1>Čia yra mygtukas kurį paspaudėme: <span id="mygtukas"></span></h1>
+<input type="number" oninput="greitis = this.value;">
+
+<script>
+//Canvas ir javascript sąsaja
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+//Kintamųjų deklaracija
+
+
+//Kvadrato piešimo funkcijos deklaracija
+function pieskKvadrateli(e) {
+	document.getElementById("mygtukas").innerHTML = e.code;
+	ctx.fillStyle = 'rgb(0, 0, 0)';
+	ctx.fillRect(10, 10, 100, 100);
+}
+
+//Šitas yra būtinas
+//pieskKvadrateli();
+
+document.addEventListener("keydown", pieskKvadrateli);
+
+</script>
+
+</body>
+</html>
