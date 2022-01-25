@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Primary colours</title>
+</head>
+<body style="background-color:rgb(160,50,150);">
+
+
+<script>
+
+function keistispalva() {
+	document.getElementById("kvadratelis").style.backgroundColor = "rgb("+document.getElementById("red").value+","+document.getElementById("green").value+","+document.getElementById("blue").value+")";
+	console.log(document.getElementById("kvadratelis").style.backgroundColor);
+}
+
+</script>
+<div style="display: block; position: absolute; height: 100%; width: 100%; left: -500px;">
+	<h1 style="display: block; font-size: 60px; position: absolute; left: 650px; top: 30px;">Primary colours of light</h1>
+
+	<div style="display: block; position: absolute; background-color: rgb(255,0,0); position: absolute; left: 650px; top: 200px; width: 100px; height: 100px;"></div>
+	<div style="display: block; position: absolute; background-color: rgb(0,255,0); position: absolute; left: 900px; top: 200px; width: 100px; height: 100px;"></div>
+	<div style="display: block; position: absolute; background-color: rgb(0,0,255); position: absolute; left: 1150px; top: 200px; width: 100px; height: 100px;"></div>
+
+
+	<div style="display: block; position: absolute; background-color: rgb(225,0,0); position: absolute; left: 610px; top: 400px; width: 60px; height: 60px;"></div>
+	<h2 style="display: block; font-size: 50px; position: absolute; left: 680px; top: 360px;">+</h2>
+	<div style="display: block; position: absolute; background-color: rgb(0,225,0); position: absolute; left: 720px; top: 400px; width: 60px; height: 60px;"></div>
+
+	<div style="display: block; position: absolute; background-color: rgb(225,0,0); position: absolute; left: 860px; top: 400px; width: 60px; height: 60px;"></div>
+	<h2 style="display: block; font-size: 50px; position: absolute; left: 930px; top: 360px;">+</h2>
+	<div style="display: block; position: absolute; background-color: rgb(0,0,225); position: absolute; left: 970px; top: 400px; width: 60px; height: 60px;"></div>
+
+	<div style="display: block; position: absolute; background-color: rgb(0,255,0); position: absolute; left: 1120px; top: 400px; width: 60px; height: 60px;"></div>
+	<h2 style="display: block; font-size: 50px; position: absolute; left: 1190px; top: 360px;">+</h2>
+	<div style="display: block; position: absolute; background-color: rgb(0,0,225); position: absolute; left: 1230px; top: 400px; width: 60px; height: 60px;"></div>
+
+
+	<div style="display: block; position: absolute; background-color: rgb(225,225,0); position: absolute; left: 660px; top: 540px; width: 70px; height: 70px;"></div>
+	<h2 style="display: block; font-size: 50px; position: absolute; left: 680px; top: 440px;">=</h2>
+
+	<div style="display: block; position: absolute; background-color: rgb(225,0,225); position: absolute; left: 910px; top: 540px; width: 70px; height: 70px;"></div>
+	<h2 style="display: block; font-size: 50px; position: absolute; left: 930px; top: 440px;">=</h2>
+
+	<div style="display: block; position: absolute; background-color: rgb(0,225,225); position: absolute; left: 1170px; top: 540px; width: 70px; height: 70px;"></div>
+	<h2 style="display: block; font-size: 50px; position: absolute; left: 1190px; top: 440px;">=</h2>
+</div>
+
+
+
+<div  style="display: block; position: absolute; height: 100%; width: 100%; left: 800px; top: 2400px; padding-bottom: 400px;">
+<h1 style="display: block; font-size: 30px; position: absolute; left: 40px; top: 940px;">Sukurk spalvą:</h1>
+<div id="kvadratelis" style="display: block; position: absolute; background-color: rgb(128,192,225); position: absolute; left: 60px; top: 1000px; width: 130px; height: 130px; margins: 100px;">
+
+<label for="red" style="display: block; position: absolute; left: -90px; top: 140px;">RED</label><input id="red" type="range" min="0" max="255" style="display: block; position: absolute; top: 140px;" oninput="keistispalva();">
+<label for="green" style="display: block; position: absolute; left: -90px; top: 160px;">GREEN</label><input id="green" type="range" min="0" max="255" style="display: block; position: absolute; top: 160px;" oninput="keistispalva();">
+<label for="blue" style="display: block; position: absolute; left: -90px; top: 180px;">BLUE</label><input id="blue" type="range" min="0" max="255" style="display: block; position: absolute; top: 180px;" oninput="keistispalva();"></div>
+</div>
+
+<h1 style="display: block; font-size: 60px; position: absolute; left: 1110px; top: 30px;">Primary colours of paint</h1>
+
+<img src="0_abPQQ3BaUFD5LugX.png" style="display: block; position: absolute; right: 200px; top: 200px;" width=" 550" height="500">
+
+
+<div  style="display: block; position: absolute; height: 500px; width: 900px; left: 10px; top: 650px;">
+<h1 style="block; font-size: 30px; position: absolute; left: 30px;"> - Jeigu pažvelgsite į kompiuterio ar televizoriaus ekraną, pamatysite, kad juose yra tik trijų spalvų šviesos: raudona, žalia ir mėlyna.
+ Trys specifinės kūgio ląstelės mūsų akyse veikia kartu, todėl šias tris šviesos spalvas galime paversti milijonais skirtingų spalvų.
+
+Sujungus raudoną ir mėlyną šviesą, gaunama purpurinė.
+ Sujungus žalią ir mėlyną šviesą, susidaro žalsvai mėlyna spalva.
+ Raudona ir žalia šviesa daro geltoną.
+ Ir kai sujungiamos visos trys pagrindinės šviesos spalvos, matome baltą šviesą.</h1>
+</div>
+
+
+<div style="display: block; position: absolute; height: 500px; width: 1000px; left: 900px; top: 690px;">
+<h1 style="block; font-size: 30px; position: absolute; left: 30px;">
+ - Šios trys (raudona, mėlyna ir geltona) yra žinomos kaip pagrindinės spalvos.
+
+Jei sumaišysite dvi pagrindines spalvas, sukursite vadinamąją antrinę spalvą.
+ Sumaišius mėlyną ir raudoną, gaunama violetinė, raudona ir geltona - oranžinė, o geltona ir mėlyna - žalia.
+ Tikslus mišrios antrinės spalvos atspalvis priklauso nuo to, kokią raudoną, mėlyną ar geltoną naudojate ir kokiomis proporcijomis jas maišote.
+Sumaišius pirminę ir antrinę spalvas gauname tretinę.
+
+Juodos ir baltos spalvos taip pat negali būti gaminamos maišant kitas spalvas, tačiau kadangi jos nėra naudojamos spalvoms maišyti kuriant spalvas, jos nėra įtrauktos į spalvų maišymo teoriją.
+ Jei prie spalvos pridedate baltos spalvos, ją pašviesinate.
+ </h1>
+ </div>
+ 
+ <img src="Vincent Gong night.jpg" style="display: block; position: absolute; left: 100px; top: 1110px;" width="800" height="500">
+ 
+ 
+ <h1 style="block; font-size: 30px; color: orange; position: absolute; left: 1000px; top: 1140px">
+ Mėnulis:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #edae07ff; position: absolute; left: 1140px; top: 1140px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #fff778ff; position: absolute; left: 1240px; top: 1140px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #efe760ff; position: absolute; left: 1340px; top: 1140px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #f4c619ff; position: absolute; left: 1440px; top: 1140px; width: 70px; height: 70px;"></div>
+
+
+<h1 style="block; font-size: 30px; color: white; position: absolute; left: 1000px; top: 1240px">
+ Vėjas:
+ </h1>
+
+ <div style="display: block; position: absolute; background-color: #a3e4faff; position: absolute; left: 1140px; top: 1240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #84c7d8ff; position: absolute; left: 1240px; top: 1240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #f8e9d2ff; position: absolute; left: 1340px; top: 1240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #e9ee88ff; position: absolute; left: 1440px; top: 1240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #b8ded1ff; position: absolute; left: 1540px; top: 1240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #f7fffbff; position: absolute; left: 1640px; top: 1240px; width: 70px; height: 70px;"></div>
+ 
+ 
+ <h1 style="block; font-size: 30px; color: dark grey; position: absolute; left: 1000px; top: 1340px">
+ Bokštas:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #47292bff; position: absolute; left: 1140px; top: 1340px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #111320ff; position: absolute; left: 1240px; top: 1340px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #27383fff; position: absolute; left: 1340px; top: 1340px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #f0f5f3ff; position: absolute; left: 1440px; top: 1340px; width: 70px; height: 70px;"></div>
+ 
+ <h1 style="block; font-size: 30px; color: aqua; position: absolute; left: 1000px; top: 1440px">
+ Miestelis:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #33a7daff; position: absolute; left: 1140px; top: 1440px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #39567fff; position: absolute; left: 1240px; top: 1440px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #d0e6a5ff; position: absolute; left: 1340px; top: 1440px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #a8edf2ff; position: absolute; left: 1440px; top: 1440px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #45142aff; position: absolute; left: 1540px; top: 1440px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #001626ff; position: absolute; left: 1640px; top: 1440px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #dcffffff; position: absolute; left: 1740px; top: 1440px; width: 70px; height: 70px;"></div>
+ 
+ 
+  <h1 style="block; font-size: 30px; color: green; position: absolute; left: 1000px; top: 1540px">
+Šlaitai:
+ </h1>
+
+ <div style="display: block; position: absolute; background-color: #77dbeaff; position: absolute; left: 1140px; top: 1540px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #69addaff; position: absolute; left: 1240px; top: 1540px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #2c4872ff; position: absolute; left: 1340px; top: 1540px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #15305fff; position: absolute; left: 1440px; top: 1540px; width: 70px; height: 70px;"></div>
+ 
+ 
+ 
+ <img src="Women famous paint.jpg" style="display: block; position: absolute; left: 100px; top: 1810px;" width=" 800" height="500">
+  
+ 
+  <h1 style="block; font-size: 30px; color: blue; position: absolute; left: 1000px; top: 1840px">
+ Skara:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #b8d0eaff; position: absolute; left: 1140px; top: 1840px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #95b7dcff; position: absolute; left: 1240px; top: 1840px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #537eb1ff; position: absolute; left: 1340px; top: 1840px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #00001aff; position: absolute; left: 1440px; top: 1840px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #ece2bfff; position: absolute; left: 1540px; top: 1840px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #fddaa0ff; position: absolute; left: 1640px; top: 1840px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #b29771ff; position: absolute; left: 1740px; top: 1840px; width: 70px; height: 70px;"></div>
+ 
+ 
+ 
+  <h1 style="block; font-size: 30px; color: pink; position: absolute; left: 990px; top: 1940px">
+ Oda/lūpos:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #f0d2caff; position: absolute; left: 1140px; top: 1940px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #dfb396ff; position: absolute; left: 1240px; top: 1940px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #dfb794ff; position: absolute; left: 1340px; top: 1940px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #c94e46ff; position: absolute; left: 1440px; top: 1940px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #e54735ff; position: absolute; left: 1540px; top: 1940px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #5a3e33ff; position: absolute; left: 1640px; top: 1940px; width: 70px; height: 70px;"></div>
+ 
+ 
+ 
+ <h1 style="block; font-size: 30px; color: white; position: absolute; left: 990px; top: 2040px">
+ Auskaras:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #e9dbceff; position: absolute; left: 1140px; top: 2040px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #949790ff; position: absolute; left: 1240px; top: 2040px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #342222ff; position: absolute; left: 1340px; top: 2040px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #fffaedff; position: absolute; left: 1440px; top: 2040px; width: 70px; height: 70px;"></div>
+ 
+ 
+ <h1 style="block; font-size: 30px; color: Green; position: absolute; left: 990px; top: 2140px">
+ Akys:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #f5e7dcff; position: absolute; left: 1140px; top: 2140px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #665b55ff; position: absolute; left: 1240px; top: 2140px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #2a130dff; position: absolute; left: 1340px; top: 2140px; width: 70px; height: 70px;"></div>
+
+
+ <h1 style="block; font-size: 30px; color: orange; position: absolute; left: 990px; top: 2240px">
+ Rūbas:
+ </h1>
+ 
+ <div style="display: block; position: absolute; background-color: #c99655ff; position: absolute; left: 1140px; top: 2240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #58523eff; position: absolute; left: 1240px; top: 2240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #fac172ff; position: absolute; left: 1340px; top: 2240px; width: 70px; height: 70px;"></div>
+ <div style="display: block; position: absolute; background-color: #7a5a43ff; position: absolute; left: 1440px; top: 2240px; width: 70px; height: 70px;"></div>
+ 
+ 
+ 
+ 
+ 
+  <h1 style="block; font-size: 40px; color: black; position: absolute; left: 100px; top: 2440px">
+ Paintings of artists' skin colors:
+ </h1>
+ 
+ 
+ 
+ 
+  <h1 style="block; font-size: 30px; color: white; position: absolute; left: 100px; top: 2640px">
+ Vincent van Gogh:
+ </h1>
+ 
+ <img src="Van gog selfie.jpg" style="display: block; position: absolute; left: 350px; top: 2620px;" width="100" height="110">
+  <h1 style="block; font-size: 30px; color: white; position: absolute; left: 100px; top: 2440px">
+
+ </h1>
+ <div style="display: block; position: absolute; background-color: #9da471ff; position: absolute; left: 500px; top: 2620px; width: 100px; height: 110px;"></div>
+ 
+ 
+ 
+ 
+ 
+  <h1 style="block; font-size: 30px; color: white; position: absolute; left: 90px; top: 2880px">
+ Leonardo da Vinci:
+ </h1>
+ 
+ <img src="Mona lisa.jpg" style="display: block; position: absolute; left: 350px; top: 2850px;" width="90" height="120">
+  <h1 style="block; font-size: 30px; color: white; position: absolute; left: 100px; top: 2650px">
+
+ </h1>
+ <div style="display: block; position: absolute; background-color: #eabf60ff; position: absolute; left: 500px; top: 2850px; width: 90px; height: 120px;"></div>
+ 
+ 
+ 
+ 
+ 
+   <h1 style="block; font-size: 30px; color: white; position: absolute; left: 140px; top: 3120px">
+ Jan van Eyck:
+ </h1>
+ 
+ <img src="Arnefilni portr.jfif" style="display: block; position: absolute; left: 340px; top: 3100px;" width="110" height="120">
+  <h1 style="block; font-size: 30px; color: white; position: absolute; left: 100px; top: 2650px">
+
+ </h1>
+ <div style="display: block; position: absolute; background-color: #d2ab74ff; position: absolute; left: 490px; top: 3100px; width: 110px; height: 120px;"></div>
+ 
+ 
+ 
+ 
+ <h1 style="block; font-size: 40px; color: black; position: absolute; left: 1100px; top: 2450px">
+Spalvų įvairovė:
+ </h1>
+ 
+ <img src="Spalvų įvairovė.jpg" style="display: block; position: absolute; left: 1000px; top: 2590px;" width="840" height="650">
+ 
+ 
+</body>
+
+</html>
